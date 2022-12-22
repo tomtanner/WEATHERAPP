@@ -186,7 +186,6 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(JSONObject response) {
                 loadingPB.setVisibility(View.GONE);
                 homeRL.setVisibility(View.VISIBLE);
-//                Toast.makeText(MainActivity.this, "aa gya yahan tak", Toast.LENGTH_SHORT).show();
                 weatherRVModelArrayList.clear();
 
                 try {
